@@ -21,8 +21,8 @@ COMMENT = 'For TRAVELEX POC - Delete in Feb 2024';
 create role travelex_role;
 -- Create the user and assign to the role
 CREATE USER IF NOT EXISTS travelex
-        email = 'khintikka@rudderstack.com'
-        password= 'Rudder24!!!'
+        #email = 'enter email'
+        #password= 'enter password'
         default_role = travelex_role
         must_change_password = false
         default_warehouse = TRAVELEX_POC
