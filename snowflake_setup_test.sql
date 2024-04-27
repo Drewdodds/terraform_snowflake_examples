@@ -21,8 +21,8 @@ COMMENT = 'For TRAVELEX POC - Delete in Feb 2024'; -- create custom comment here
 create role travelex_role; -- test role here
 -- Create the user and assign to the role
 CREATE USER IF NOT EXISTS travelex -- create test user here
-        email = 'khintikka@rudderstack.com' -- my rudder email
-        password= 'Rudder24!!!' -- password
+        #email = 'enter email' -- my rudder email
+        #password= 'enter password' -- password
         default_role = travelex_role -- insert test role from above
         must_change_password = false
         default_warehouse = TRAVELEX_POC -- insert test WH from above
