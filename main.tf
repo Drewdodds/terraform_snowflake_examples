@@ -10,7 +10,7 @@ terraform {
 
 provider "rudderstack" {
   api_url      = "https://api.rudderstack.com/v2"
-  access_token = "2exiz8feLIXjAO2IvCGsos4TLxq"
+  #access_token = "enter workspace access token"
 }
 
 resource "rudderstack_source_javascript" "wyze-site" {
