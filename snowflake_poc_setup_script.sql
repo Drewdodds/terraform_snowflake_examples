@@ -5,7 +5,7 @@
 4) Create a database
 5) Create schemas (Profiles, RUDDERSTACK and _RUDDERSTACK) in that database
 6) Grant usage on warehouse to role
-7) Grant usage on databae to role
+7) Grant usage on database to role
 8) Grant create schema on database (created above) to role
 9) Grant various permissions on tables, views, etc. on the different schemas
 10) Grant new role privileges to DEMO_ROLE and ANALYTICS_ROLE so that everyone here can see it
